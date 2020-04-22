@@ -1,0 +1,124 @@
+img {
+  width: 100%;
+}
+
+.landing {
+  position: relative;
+  /* background: url('./img/banner.png') no-repeat; */
+  background-size: cover;
+  background-position: center;
+  min-height: 85vh;
+  margin-top: 30px;
+  margin-bottom: -50px;
+ 
+}
+.barprogress{
+  width: 60%;
+  text-align: center;
+}
+
+.landing-inner {
+  padding-top: 80px;
+}
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.05);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card-form {
+  opacity: 0.9;
+}
+
+.latest-profiles-img {
+  width: 40px;
+  height: 40px;
+}
+
+.form-control::placeholder {
+  color: #bbb !important;
+}
+.style{
+  min-height: 69.5vh;
+  margin-top: 100px;
+}
+.adress-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.adress-info > * {
+  flex: 1;
+  margin: 0 !important;
+}
+.adress-info > :nth-child(2) {
+  margin: 0 15px !important;
+}
+.dashbord-nav{
+  display: flex;
+  justify-content: space-between;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  width: 428px;
+}
+.nav button{
+  height: 35px;
+}
+.dash-container{
+  display: flex;
+  flex-direction: column;
+}
+.profile-info{
+  display: flex;
+  justify-content: space-between;
+}
+.search{
+  width: 30%;
+  display: flex;
+}
+.search input{
+  height:30px ;
+}
+.card-style{
+  width: 18rem;
+  margin: 5px;
+}
+.delete{
+  position: absolute;
+  top:2px;
+  right: 8px;
+}
+.main-box{
+  display: flex;
+  justify-content: space-between;
+}
+.text{
+  color:Black;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 80px;
+}
+.mes-annonces{
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+}
+.btstyle{
+  width: 80px;
+  margin: 10px;
+}
+.btn-section{
+  display: flex;
+  justify-content: space-around;
+}
+ .postion-bottom {
+   /* position: relative;
+   top: calc(100vh - 791px); */
+   position: sticky;
+ }
